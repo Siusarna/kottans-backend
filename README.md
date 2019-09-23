@@ -27,7 +27,7 @@ The heap is enlarged via the brk() system call (implementation) to make room for
 `What's the difference between Text and Data memory segments ?`
 The data segment holds the contents for static variables initialized in source code. The string lives in the text segment, which is read-only and stores all of your code in addition to tidbits like string literals.
 
-563e31898000-563e318c5000 r--p 00000000 08:06 2228320                    /usr/bin/bash
+`563e31898000-563e318c5000 r--p 00000000 08:06 2228320                    /usr/bin/bash
 
 563e318c5000-563e31973000 r-xp 0002d000 08:06 2228320                    /usr/bin/bash
 
@@ -111,10 +111,12 @@ The data segment holds the contents for static variables initialized in source c
 
 7fffbf09b000-7fffbf09c000 r-xp 00000000 00:00 0                          [vdso]
 
-ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]`
 
 Heap - 563e33358000-563e33481000
+
 Stack - 7fffbf055000-7fffbf076000
+
 MMS - 7fd3e0ede000-7fd3e0ee5000
 
 This subtasks open for me anatomy of a program in memory, its was hard but I understood stack, heap, garbage collector.
