@@ -27,7 +27,7 @@ The heap is enlarged via the brk() system call (implementation) to make room for
 `What's the difference between Text and Data memory segments ?`
 The data segment holds the contents for static variables initialized in source code. The string lives in the text segment, which is read-only and stores all of your code in addition to tidbits like string literals.
 
-{55b6a8299000-55b6a82c6000 r--p 00000000 08:06 2228320                    /usr/bin/bash
+```55b6a8299000-55b6a82c6000 r--p 00000000 08:06 2228320                    /usr/bin/bash
 55b6a82c6000-55b6a8374000 r-xp 0002d000 08:06 2228320                    /usr/bin/bash
 55b6a8374000-55b6a83aa000 r--p 000db000 08:06 2228320                    /usr/bin/bash
 55b6a83aa000-55b6a83ae000 r--p 00110000 08:06 2228320                    /usr/bin/bash
@@ -70,7 +70,7 @@ The data segment holds the contents for static variables initialized in source c
 7ffe7b572000-7ffe7b575000 r--p 00000000 00:00 0                          [vvar]
 7ffe7b575000-7ffe7b576000 r-xp 00000000 00:00 0                          [vdso]
 ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
-}
+```
 
 Heap - 55b6a962c000-55b6a9776000
 
