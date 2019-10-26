@@ -98,34 +98,34 @@ Requests:
     III. Our website may be blocked by a browser
 2. Explain the main idea behind public key cryptography in few sentences.
      You can decrypted message, that was enncrypted by a public key before, only with the corresponding private key. Neither key can perform both functions by itself. The private key must not be revealed to anyone who isn’t authorized to decrypt messages, but  The public key can be published without compromising the security of the system.
-3. You are creating and application for pet clinic. You need to implement the following functionality:
+3. You are creating and application for pet clinic. You need to implement the following functionality
 
-    I. Add new pet
-        <li> POST
-	<li> body: name, age, breed, owner's name, medical history.
-	<li> Status code: 204;
+    I. Add new pet:
+        • POST;
+        • body: name, age, breed, owner's name, medical history;
+        • Status code: 204;
 
-    II. Search pet by name
-	<li> Get
-	<li> body: name
-	<li> Status code: 200;
+    II. Search pet by name:
+        • Get
+        • body: name
+        • Status code: 200;
 
     III. Change name of an existing pet:
-	<li> Put
-	<li> body: name
-	<li> Status code: 204;
+        • Put
+        • body: name
+        • Status code: 204;
 
     IV. Add new info about pet's health:
-	<li> Put
-	<li> body: new info
-	<li> Status code: 204;
+        • Put
+        • body: new info
+        • Status code: 204;
 
-    V. Assign a pet to a particular doctor in the clinic
-	<li> Put
-	<li> body: doctor_id
-	<li> Status code: 200;
+    V. Assign a pet to a particular doctor in the clinic:
+        • Put
+        • body: doctor_id
+        • Status code: 200;
 
     VI. Register an appointment for a pet. This request should include info about pet, doctor and appointment date and time.
-	<li> POST
-	<li> Body: info about pet, doctor and appointment date and time
-	<li> Status code: 200;
+        • POST
+        • Body: info about pet, doctor and appointment date and time
+        • Status code: 200;
