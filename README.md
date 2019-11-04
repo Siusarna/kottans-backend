@@ -129,3 +129,7 @@ Requests:
         • POST
         • Body: info about pet, doctor and appointment date and time
         • Status code: 200;
+
+## File System
+![secret.txt](file_system/secret.txt)
+![task.js](file_system/file_system_task.js)
