@@ -131,5 +131,6 @@ Requests:
         • Status code: 200;
 
 ## File System
-![secret.txt](file_system/secret.txt)
-![task.js](file_system/file_system_task.js)
+[secret.txt](file_system/secret.txt)
+
+[task.js](file_system/file_system_task.js)
