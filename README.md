@@ -142,3 +142,9 @@ Requests:
 
 I really liked course abou how internet works. I imagined the whole picture of how the internet works
 Reviewed and approved by @AMashoshyna
+
+## Data-structures
+
+Really cool links to information and tasks with data structures and http
+[index.js](data-structures/index.js)
+Reviewed and approved by @zonzujiro
