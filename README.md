@@ -134,3 +134,11 @@ Requests:
 [secret.txt](file_system/secret.txt)
 
 [task.js](file_system/file_system_task.js)
+
+## TCP. UDP. Network
+
+![Screenshoot1](task_networks/ss1.png)
+![Screenshoot2](task_networks/ss2.jpg)
+
+I really liked course abou how internet works. I imagined the whole picture of how the internet works
+Reviewed and approved by @AMashoshyna
