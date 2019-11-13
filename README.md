@@ -149,5 +149,6 @@ Really cool links to information and tasks with data structures and http
 [index.js](data-structures/index.js)
 Reviewed and approved by @zonzujiro
 
-##Relational Databases Basics
+## Relational Databases Basics
+
 [select.sql](sql_basics/select.sql)
